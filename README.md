@@ -59,9 +59,9 @@ jobs:
         uses: m1ner79/Github-Twittction@{VERSION}
         with:
             twitter_status: "ℍ𝕖𝕪 𝕪𝕠𝕦! 👋 𝕎𝕖 ${{ github.event.repository.owner.name}} 𝕙𝕒𝕧𝕖 𝕒 𝕟𝕖𝕨 𝕔𝕠𝕞𝕞𝕚𝕥 𝕚𝕟 𝕥𝕙𝕖 𝕞𝕒𝕤𝕥𝕖𝕣 𝕓𝕣𝕒𝕟𝕔𝕙 🥳 \n 𝕀𝕥𝕤 𝕟𝕒𝕞𝕖 𝕚𝕤 ${{ github.event.commits[0].message }} 😱 \n ℂ𝕙𝕖𝕔𝕜 𝕚𝕥 𝕠𝕦𝕥 𝕙𝕖𝕣𝕖 👇 \n ${{ github.event.commits[0].url }}"
-            twitter_consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }} 
-            twitter_consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }} 
-            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }} 
+            twitter_consumer_key: ${{ secrets.TWITTER_API_KEY }} 
+            twitter_consumer_secret: ${{ secrets.TWITTER_API_SECRET_KEY }} 
+            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN }} 
             twitter_access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} 
 ```
 
@@ -83,9 +83,9 @@ jobs:
         uses: m1ner79/Github-Twittction@{VERSION}
         with:
             twitter_status: "🅆🄴 🄲🄰🄽 🅂🄴🄴 🄰 🄿🅄🄻🄻_🅁🄴🅀🅄🄴🅂🅃 ${{github.event.pull_request.title}} 🄲🅁🄴🄰🅃🄴🄳 🄱🅈 ${{github.event.pull_request.head.repo.full_name}} 🄲🄻🄸🄲🄺 🄷🄴🅁🄴 ${{github.event.pull_request.html_url}} 🄰🄽🄳 🅂🄴🄴 🄸🅃 🅈🄾🅄🅁🅂🄴🄻🄵"
-            twitter_consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }} 
-            twitter_consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }} 
-            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }} 
+            twitter_consumer_key: ${{ secrets.TWITTER_API_KEY }} 
+            twitter_consumer_secret: ${{ secrets.TWITTER_API_SECRET_KEY }} 
+            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN }} 
             twitter_access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} 
 ```
 
@@ -107,9 +107,9 @@ jobs:
         uses: m1ner79/Github-Twittction@{VERSION}
         with:
             twitter_status: "Ⓛⓞⓞⓚⓢ ⓛⓘⓚⓔ ⓐ ⓝⓔⓦ ⓡⓔⓛⓔⓐⓢⓔ ${{github.event.release.tag_name}} ⓘⓢ ⓘⓝ ${{github.event.repository.full_name}} .Ⓜⓞⓡⓔ ⓓⓔⓣⓐⓘⓛⓢ ⓐⓡⓔ ⓐⓥⓐⓘⓛⓐⓑⓛⓔ ⓗⓔⓡⓔ ${{github.event.release.html_url}}"
-            twitter_consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }} 
-            twitter_consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }} 
-            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }} 
+            twitter_consumer_key: ${{ secrets.TWITTER_API_KEY }} 
+            twitter_consumer_secret: ${{ secrets.TWITTER_API_SECRET_KEY }} 
+            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN }} 
             twitter_access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} 
 ```
 
@@ -132,9 +132,9 @@ jobs:
         with:
             # twitter_status: is deactivated so you will see one of our default messages
             # twitter_status: "ℍ𝕖𝕪 𝕪𝕠𝕦! 👋 𝕎𝕖 ${{ github.event.repository.owner.name}} 𝕙𝕒𝕧𝕖 𝕒 𝕟𝕖𝕨 𝕔𝕠𝕞𝕞𝕚𝕥 𝕚𝕟 𝕥𝕙𝕖 𝕞𝕒𝕤𝕥𝕖𝕣 𝕓𝕣𝕒𝕟𝕔𝕙 🥳 \n 𝕀𝕥𝕤 𝕟𝕒𝕞𝕖 𝕚𝕤 ${{ github.event.commits[0].message }} 😱 \n ℂ𝕙𝕖𝕔𝕜 𝕚𝕥 𝕠𝕦𝕥 𝕙𝕖𝕣𝕖 👇 \n ${{ github.event.commits[0].url }}"
-            twitter_consumer_key: ${{ secrets.TWITTER_CONSUMER_KEY }} 
-            twitter_consumer_secret: ${{ secrets.TWITTER_CONSUMER_SECRET }} 
-            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN_KEY }} 
+            twitter_consumer_key: ${{ secrets.TWITTER_API_KEY }} 
+            twitter_consumer_secret: ${{ secrets.TWITTER_API_SECRET_KEY }} 
+            twitter_access_token_key: ${{ secrets.TWITTER_ACCESS_TOKEN }} 
             twitter_access_token_secret: ${{ secrets.TWITTER_ACCESS_TOKEN_SECRET }} 
 ```
 
